@@ -4,21 +4,14 @@
   <title>WEB1 - JavaScript</title>
   <meta charset="utf-8">
   <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="colors.js"></script>
 </head>
 <body>
   <h1><a href="index.html">WEB</a></h1>
-  <input type="button" value="night" onclick="
-  document.querySelector('body').style.backgroundColor = 'black';
-  document.querySelector('body').style.color = 'white';
+  <input id="night_day" type="button" value="night" onclick="
+    nightDayHandler(this)
   ">
-  <input type="button" value="day" onclick="
-  document.querySelector('body').style.backgroundColor = 'white';
-  document.querySelector('body').style.color = 'black';
-  ">
-  <!--
-  a 는 style.css 파일에 text-color:orange 로 정의되어 button 으로 변경되지 않음
-  일단 넘어감
-  -->
   <div id="grid">
     <ol>
       <li><a href="1.html">HTML</a></li>

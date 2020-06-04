@@ -13,10 +13,11 @@
 2020-06-02
 -. if else 의 setColor 를 Powderblue → white 로 오표기를 수정.
    jQuery 는 문제없이 작동되고 있었음.
-   색상이 poderblue 라서 적용이 안되고 있었다고 생각한 것임.
-   jQuery 가 작동되고 있지 않았다면 night, day 색상이 바뀌지 않았어야함.
+   색상이 powderblue 라서 적용이 안되고 있었다고 생각한 것임.
+   jQuery 가 작동되고 있지 않았다면 night, day 색상이 바뀌지 않았어야 함.
 
-
-
-"# git_test" 
-"# git_test" 
+2020-06-03
+-. day_night button 으로 alist 색상 바뀌지 않았던 것 해결함.
+   web 최초 실행시, CSS Color : Orange 적용.
+   alist 클릭시 JS Color : white 적용.
+-. 1,2,3,index.html 에 모두 적용하고 JS-1,JS-2,JS-3,JS-index.html 모두 삭제함.
